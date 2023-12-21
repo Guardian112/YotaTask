@@ -6,6 +6,7 @@ import io.restassured.response.Response;
 import models.other.*;
 import models.response.*;
 import models.request.*;
+import org.junit.Assert;
 
 import static io.restassured.RestAssured.given;
 
@@ -90,5 +91,9 @@ public class ApiSteps {
                 .statusCode(statusCode)
                 .extract()
                 .response();
+    }
+    @Step ("Заимствование сравнения")
+    public void checkEqualResponse (Object expectedResult, Object actualResult) {
+        Assert.assertEquals(expectedResult, actualResult);
     }
 }

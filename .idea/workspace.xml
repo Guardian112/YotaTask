@@ -6,7 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a31e9ac3-680a-4350-a51a-aa12928b1755" name="Changes" comment="Здарова👋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/apiSteps/UserSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/apiSteps/UserSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/ApiSteps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,11 +67,11 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Tests.ABCAdmin">
-    <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager">
+    <configuration name="AdminTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="AdminTests" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,10 +79,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.ABC" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminTests.ABC" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="AdminTests" />
       <option name="METHOD_NAME" value="ABC" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -90,10 +91,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.ABCAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminTests.ABCAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="AdminTests" />
       <option name="METHOD_NAME" value="ABCAdmin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -102,10 +103,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.ABCUser" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminTests.ABCUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
+      <option name="MAIN_CLASS_NAME" value="AdminTests" />
       <option name="METHOD_NAME" value="ABCUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -114,11 +115,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.EmptyPhones" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="AdminTests.TestAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="EmptyPhones" />
+      <option name="MAIN_CLASS_NAME" value="AdminTests" />
+      <option name="METHOD_NAME" value="TestAdmin" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,11 +129,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.Tests.ABCAdmin" />
-        <item itemvalue="TestNG.Tests.ABCUser" />
-        <item itemvalue="TestNG.Tests.ABC" />
-        <item itemvalue="TestNG.Tests" />
-        <item itemvalue="TestNG.Tests.EmptyPhones" />
+        <item itemvalue="TestNG.AdminTests.TestAdmin" />
+        <item itemvalue="TestNG.AdminTests.ABCAdmin" />
+        <item itemvalue="TestNG.AdminTests.ABCUser" />
+        <item itemvalue="TestNG.AdminTests.ABC" />
+        <item itemvalue="TestNG.AdminTests" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +160,7 @@
       <workItem from="1703144079608" duration="618000" />
       <workItem from="1703144731519" duration="4293000" />
       <workItem from="1703149453505" duration="3708000" />
-      <workItem from="1703153886031" duration="8236000" />
+      <workItem from="1703153886031" duration="10149000" />
     </task>
     <task id="LOCAL-00001" summary="Здарова👋">
       <option name="closed" value="true" />
@@ -201,7 +202,23 @@
       <option name="project" value="LOCAL" />
       <updated>1703161689366</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Здарова👋">
+      <option name="closed" value="true" />
+      <created>1703163790587</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1703163790587</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Здарова👋">
+      <option name="closed" value="true" />
+      <created>1703163835964</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1703163835964</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
