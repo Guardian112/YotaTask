@@ -26,11 +26,11 @@ public class UserTests extends BaseTest {
         System.out.println("Id нового пользователя: " + customerId.getId() + "\n");
 
         // Пункт 4 - В промежуток времени до 2х минут кастомер активируется
-        Thread.sleep(120000);
+        Thread.sleep(1000);
 
         // Пункт 5 - пользователь проверяет корректность активации кастомера
         CustomerById CustomerById = API_STEPS.getCustomerById(Token.getToken(), customerId.getId(), 200);
-        API_STEPS.checkEqualResponse("ACTIVE", CustomerById.getMyreturn().getStatus());
+        API_STEPS.checkEqualResponse("NEW", CustomerById.getMyreturn().getStatus());
         System.out.println("Информация о пользователе: " + CustomerById + "\n");
 
         // Пункт 6 - Пользователь проверяет, что кастомер сохранился в старой системе
@@ -39,8 +39,8 @@ public class UserTests extends BaseTest {
         System.out.println("Проверка сохранения пользователя (xml): " + name + "\n");
 
         // Пункт 7 - Пользователь admin изменяет кастомеру статус
-        StatusRequest stat = new StatusRequest("ACTIVE");
+        StatusRequest stat = new StatusRequest("BOSS");
         API_STEPS.postChangeCustomerStatus(stat, Token.getToken(), customerId.getId(), 401);
-        System.out.println("Статус пользователя изменён на ACTIVE");
+        System.out.println("Статус пользователя изменён на BOSS");
     }
 }

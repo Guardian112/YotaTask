@@ -92,7 +92,7 @@ public class ApiSteps {
                 .extract()
                 .response();
     }
-    @Step ("Заимствование сравнения")
+    @Step ("Сравнение")
     public void checkEqualResponse (Object expectedResult, Object actualResult) {
         Assert.assertEquals(expectedResult, actualResult);
     }
