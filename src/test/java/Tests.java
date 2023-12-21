@@ -9,7 +9,7 @@ import org.testng.annotations.Test;
 
 public class Tests extends BaseTest {
     @Test (description = "Проверка сценария активации абонента по шагам из бизнес-сценария за Админа")
-    public void ABCAdmin() throws JsonProcessingException {
+    public void TestAdmin() throws JsonProcessingException {
         // Пункт 1 - Пользователь авторизуется в системе под своим логином/паролем
         LoginRequest loginAdmin = new LoginRequest("admin", "password");
         LoginTokenResponse token = API_STEPS.postLogin(loginAdmin, 200); // <-- Тут получаем токен
@@ -50,7 +50,7 @@ public class Tests extends BaseTest {
         System.out.println(NewCustomerById.getMyreturn().getStatus());
     }
     @Test (description = "Проверка сценария активации абонента по шагам из бизнес-сценария за Юзера")
-    public void ABCUser() throws JsonProcessingException {
+    public void TestUser() throws JsonProcessingException {
         // Пункт 1 - Пользователь авторизуется в системе под своим логином/паролем
         LoginRequest loginAdmin = new LoginRequest("user", "password");
         LoginTokenResponse Token = API_STEPS.postLogin(loginAdmin, 200); // <-- Тут получаем токен
