@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="a31e9ac3-680a-4350-a51a-aa12928b1755" name="Changes" comment="EEEEEE">
+      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/testing.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/ApiSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/AdminTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdminTests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTests.java" afterDir="false" />
     </list>
@@ -68,19 +69,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.AdminTests.TestAdmin">
-    <configuration name="AdminTests.ABC" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="Recresin" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="AdminTests" />
-      <option name="METHOD_NAME" value="ABC" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="TestNG.C:/Users/Hp/IdeaProjects/Yota/testing.xml">
     <configuration name="AdminTests.ABCAdmin" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
@@ -117,6 +106,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="C:/Users/Hp/IdeaProjects/Yota/testing.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="Recresin" />
+      <option name="SUITE_NAME" value="$PROJECT_DIR$/testing.xml" />
+      <option name="TEST_OBJECT" value="SUITE" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="UserTests.TestUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
@@ -131,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.C:/Users/Hp/IdeaProjects/Yota/testing.xml" />
         <item itemvalue="TestNG.AdminTests.TestAdmin" />
         <item itemvalue="TestNG.UserTests.TestUser" />
         <item itemvalue="TestNG.AdminTests.ABCAdmin" />
         <item itemvalue="TestNG.AdminTests.ABCUser" />
-        <item itemvalue="TestNG.AdminTests.ABC" />
       </list>
     </recent_temporary>
   </component>
@@ -162,7 +161,7 @@
       <workItem from="1703144079608" duration="618000" />
       <workItem from="1703144731519" duration="4293000" />
       <workItem from="1703149453505" duration="3708000" />
-      <workItem from="1703153886031" duration="13030000" />
+      <workItem from="1703153886031" duration="14990000" />
     </task>
     <task id="LOCAL-00001" summary="Здарова👋">
       <option name="closed" value="true" />
@@ -236,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703167073659</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="EEEEEE">
+      <option name="closed" value="true" />
+      <created>1703168490484</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1703168490484</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

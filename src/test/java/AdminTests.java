@@ -26,11 +26,11 @@ public class AdminTests extends BaseTest {
         System.out.println("Id нового пользователя: " + customerId.getId() + "\n");
 
         // Пункт 4 - В промежуток времени до 2х минут кастомер активируется
-        Thread.sleep(1000);
+        Thread.sleep(120000);
 
         // Пункт 5 - пользователь проверяет корректность активации кастомера
         CustomerById CustomerById = API_STEPS.getCustomerById(token.getToken(), customerId.getId(), 200);
-        API_STEPS.checkEqualResponse("NEW", CustomerById.getMyreturn().getStatus());
+        API_STEPS.checkEqualResponse("ACTIVE", CustomerById.getMyreturn().getStatus());
         System.out.println("Информация о пользователе: " + CustomerById + "\n");
 
         // Пункт 6 - Пользователь проверяет, что кастомер сохранился в старой системе
