@@ -1,13 +1,14 @@
-# Инструкция запуска
+# Run instructions
 
-Запуск эмулятора
-
+Start TestService
 ```shell
 java -jar testService.jar
 ```
-
-Запуск проекта
-
+Start tests
 ```shell
-
+mvn clean test
+```
+Create Allure report
+```shell
+mvn allure:serve
 ```

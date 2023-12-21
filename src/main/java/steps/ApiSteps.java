@@ -14,6 +14,7 @@ public class ApiSteps {
     @Step ("Авторизация")
     public LoginTokenResponse postLogin(LoginRequest LogReq, Integer statusCode) {
         return given()
+                .log().all()
                 .baseUri("http://localhost:8080")
                 .body(LogReq)
                 .contentType(ContentType.JSON)
@@ -26,6 +27,7 @@ public class ApiSteps {
     @Step ("Получение списка свободных телефонов")
     public PhonesResponse getEmptyPhones(String token, Integer statusCode) {
         return given()
+                .log().all()
                 .header("authToken", token)
                 .baseUri("http://localhost:8080")
                 .get("/simcards/getEmptyPhone")
@@ -38,6 +40,7 @@ public class ApiSteps {
     @Step ("Создание нового кастомера")
     public IdResponse postCreateCustomer(String token, CustomerRequest CastReq, Integer statusCode) {
         return given()
+                .log().all()
                 .header("authToken", token)
                 .baseUri("http://localhost:8080")
                 .body(CastReq)
@@ -51,6 +54,7 @@ public class ApiSteps {
     @Step ("Проверка корректности активации кастомера")
     public CustomerById getCustomerById(String token, String customerId, Integer statusCode) {
         return given()
+                .log().all()
                 .header("authToken", token)
                 .baseUri("http://localhost:8080")
                 .get("/customer/getCustomerById" + "?customerId=" + customerId)
@@ -62,6 +66,7 @@ public class ApiSteps {
     @Step ("Проверка что кастомер сохранился в старой системе")
     public Response postCustomerByPhone(String token, Long number, Integer statusCode) {
         return given()
+                .log().all()
                 .baseUri("http://localhost:8080")
                 .body("<?xml version=\"1.0\" encoding=\"UTF-8\" standalone=\"yes\"?>\n" +
                         "<ns3:Envelope xmlns:ns2=\"soap\" xmlns:ns3=\"http://schemas.xmlsoap.org/soap/envelope\">\n" +
@@ -82,6 +87,7 @@ public class ApiSteps {
     @Step ("Смена статуса кастомера")
     public void postChangeCustomerStatus(StatusRequest StReq, String token, String customerId, Integer statusCode) {
         given()
+                .log().all()
                 .header("authToken", token)
                 .baseUri("http://localhost:8080")
                 .body(StReq)
