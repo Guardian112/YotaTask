@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a31e9ac3-680a-4350-a51a-aa12928b1755" name="Changes" comment="Здарова👋">
+    <list default="true" id="a31e9ac3-680a-4350-a51a-aa12928b1755" name="Changes" comment="Разделение юзера и админа">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/steps/ApiSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/ApiSteps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/AdminTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/AdminTests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/UserTests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/UserTests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,7 +67,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.AdminTests.TestAdmin">
     <configuration name="AdminTests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
@@ -160,7 +160,7 @@
       <workItem from="1703144079608" duration="618000" />
       <workItem from="1703144731519" duration="4293000" />
       <workItem from="1703149453505" duration="3708000" />
-      <workItem from="1703153886031" duration="10149000" />
+      <workItem from="1703153886031" duration="12028000" />
     </task>
     <task id="LOCAL-00001" summary="Здарова👋">
       <option name="closed" value="true" />
@@ -218,7 +218,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703163835964</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="Разделение юзера и админа">
+      <option name="closed" value="true" />
+      <created>1703165414901</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1703165414901</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -227,7 +235,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Здарова" />
     <MESSAGE value="Здарова" />
-    <option name="LAST_COMMIT_MESSAGE" value="Здарова" />
+    <MESSAGE value="Разделение юзера и админа" />
+    <option name="LAST_COMMIT_MESSAGE" value="Разделение юзера и админа" />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/Yota$Example_getEmptyPhones.ic" NAME="Example.getEmptyPhones Coverage Results" MODIFIED="1703067287323" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
