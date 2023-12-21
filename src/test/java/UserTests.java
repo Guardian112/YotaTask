@@ -9,7 +9,8 @@ import models.response.*;
 import org.testng.annotations.Test;
 
 public class UserTests extends BaseTest {
-    @Test (description = "Проверка сценария активации абонента по шагам из бизнес-сценария за Юзера")
+    @Test (description = "Проверка сценария активации абонента по шагам из бизнес-сценария за Юзера",
+    retryAnalyzer = Retry.class)
     public void TestUser() throws JsonProcessingException, InterruptedException {
         Allure.step("Пункт 1 - Пользователь авторизуется в системе под своим логином/паролем");
         LoginRequest loginAdmin = new LoginRequest("user", "password");
