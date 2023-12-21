@@ -87,7 +87,7 @@ public class UserSteps {
                 .contentType(ContentType.JSON)
                 .post("/customer/" + customerId + "/changeCustomerStatus")
                 .then()
-                .statusCode(400)
+                .statusCode(401)
                 .extract()
                 .response();
     }

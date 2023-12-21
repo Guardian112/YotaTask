@@ -6,6 +6,8 @@
   <component name="ChangeListManager">
     <list default="true" id="a31e9ac3-680a-4350-a51a-aa12928b1755" name="Changes" comment="Здарова👋">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/Steps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/Steps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/steps/apiSteps/AdminSteps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/steps/apiSteps/AdminSteps.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -66,7 +68,7 @@
     "vue.rearranger.settings.migration": "true"
   }
 }]]></component>
-  <component name="RunManager" selected="TestNG.Tests.ABC">
+  <component name="RunManager" selected="TestNG.Tests.ABCUser">
     <configuration name="Tests" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
@@ -90,11 +92,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.EmptyPhones" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.ABCUser" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="EmptyPhones" />
+      <option name="METHOD_NAME" value="ABCUser" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -102,11 +104,11 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Tests.postChangeCustomerStatus" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="Tests.EmptyPhones" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="Recresin" />
       <option name="PACKAGE_NAME" value="" />
       <option name="MAIN_CLASS_NAME" value="Tests" />
-      <option name="METHOD_NAME" value="postChangeCustomerStatus" />
+      <option name="METHOD_NAME" value="EmptyPhones" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -128,11 +130,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.Tests.ABCUser" />
         <item itemvalue="TestNG.Tests.ABC" />
         <item itemvalue="TestNG.Tests" />
         <item itemvalue="TestNG.Tests.EmptyPhones" />
         <item itemvalue="TestNG.Tests.postCustomerByPhone" />
-        <item itemvalue="TestNG.Tests.postChangeCustomerStatus" />
       </list>
     </recent_temporary>
   </component>
@@ -159,7 +161,7 @@
       <workItem from="1703144079608" duration="618000" />
       <workItem from="1703144731519" duration="4293000" />
       <workItem from="1703149453505" duration="3708000" />
-      <workItem from="1703153886031" duration="3579000" />
+      <workItem from="1703153886031" duration="6950000" />
     </task>
     <task id="LOCAL-00001" summary="Здарова👋">
       <option name="closed" value="true" />
@@ -177,7 +179,15 @@
       <option name="project" value="LOCAL" />
       <updated>1703153964089</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Здарова👋">
+      <option name="closed" value="true" />
+      <created>1703158170497</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1703158170497</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
